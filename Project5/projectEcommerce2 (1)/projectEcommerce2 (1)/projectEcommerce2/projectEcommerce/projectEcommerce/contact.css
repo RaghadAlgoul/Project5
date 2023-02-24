@@ -1,0 +1,123 @@
+﻿body {
+    /*background-color: #E1ECF2;*/
+    background-image: url(Image/ggg.jpg);
+    background-size: contain;
+}
+
+#con1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navtext {
+    color: white;
+    font-size: 20PX;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+#con2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: white;
+    border: solid black 2px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#form {
+    width: 60%;
+}
+
+#Button1 {
+    border: 2px solid #82B0CA;
+    background-color: white;
+    color: #82B0CA;
+    padding: 6px 24px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    left: 47%;
+}
+
+    #Button1:hover {
+        background-color: #82B0CA;
+        color: white;
+    }
+
+.form-group {
+    font-size: 25px;
+}
+
+.text-reset {
+    text-decoration: none;
+}
+
+.text-muted {
+    color: white !important;
+}
+
+.fas {
+    color: white !important;
+}
+
+.fab {
+    color: white;
+}
+
+
+#contact {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+    #con2 {
+        width: 80% !important;
+        height: 70vh;
+    }
+
+    #form {
+        width: 80% !important;
+    }
+
+    #Button1 {
+        padding: 6px 24px;
+        font-size: 12px;
+        left: 38%;
+        bottom: 22%;
+    }
+
+    .form-group {
+        font-size: 15px;
+    }
+
+    #contact {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    #Button1 {
+        padding: 6px 24px;
+        font-size: 15px;
+        left: 45%;
+        bottom: 2%;
+    }
+
+    #contact {
+        font-size: 35px;
+    }
+}
